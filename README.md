@@ -1,10 +1,13 @@
 # schema
-A repository for holding schema templates for the ixo Templates
+A repository for holding schema templates for the ixo Protocol
 
 ## Folder Structure
 `/project` - Project Templates
+
 `/agents` - Agent Templates
+
 `/claims` - Claim Templates
+
 `/evaluations` - Evaluation Templates
 
 ## Template Schemas
