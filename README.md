@@ -11,7 +11,7 @@ A repository for holding schema templates for the ixo Protocol
 `/evaluations` - Evaluation Templates
 
 ## Template Schemas
-All Templates follow the [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) structure examples can be found at [Schema.org](http//:schema.org)
+All Templates follow the [JSON-LD](https://developers.google.com/search/docs/guides/intro-structured-data) structure examples can be found at [Schema.org](http://schema.org)
 
 Example:
 ```
