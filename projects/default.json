@@ -1,5 +1,5 @@
 {
-  "@context": "http://ixo.foundation",
+  "@context": "http://ixo.foundation/schema",
   "@type": "Project",
   "so": "http://schema.org/",
   "name": "so:name",
