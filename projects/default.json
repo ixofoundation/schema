@@ -1,9 +1,9 @@
 {
-  "@context": "http://schema.org",
+  "@context": "http://ixo.foundation",
   "@type": "Project",
   "so": "http://schema.org/",
   "name": "so:name",
-  "descripttion": "so:name",
+  "about": "so:about",
   "country": "so:country",
   "thumbnail": {
     "@type": "ImageObject",
