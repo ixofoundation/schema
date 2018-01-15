@@ -1,0 +1,17 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Project",
+  "so": "http://schema.org/",
+  "name": "so:name",
+  "descripttion": "so:name",
+  "country": "so:country",
+  "thumbnail": {
+    "@type": "ImageObject",
+    "contentUrl": "so:contentUrl" 
+  },
+  "owner": {
+    "@type": "Person",
+    "email": "so:email",
+    "name": "so:name"
+  }
+}

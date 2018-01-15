@@ -2,7 +2,7 @@
 A repository for holding schema templates for the ixo Protocol
 
 ## Folder Structure
-`/project` - Project Templates
+`/projects` - Project Templates
 
 `/agents` - Agent Templates
 
