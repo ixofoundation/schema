@@ -29,7 +29,7 @@ Example:
 ```
 
 ## Templates
-Templates describe the labels, input type and the optionality of fileds.  These are used on the client side for rendering schemas.
+Templates describe the labels, input type and the optionality of fields.  These are used on the client side for rendering schemas.
 
 Templates consist of a single data element called `entities` which is an array of the fields/entities that need to be rendered on screen. Each entity has three mandatory values:
 
