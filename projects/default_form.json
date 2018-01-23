@@ -32,7 +32,14 @@
     {
       "label": "Project ID",
       "name": "projectTx",
-      "type": "text"
+      "type": "text",
+      "hidden": "true"
+    },
+    {
+      "label": "Template Name",
+      "name": "template.name",
+      "type": "text",
+      "hidden": "true"
     }
 
   ]

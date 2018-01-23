@@ -1,17 +1,14 @@
 {
   "@context": "http://ixo.foundation/schema",
-  "@type": "Project",
+  "@type": "Agent",
   "so": "http://schema.org/",
+  "ixo": "http://ixo.foundation/schema",
+  "email": "so:email",
   "name": "so:name",
-  "about": "so:about",
-  "country": "so:country",
-  "thumbnail": {
-    "@type": "ImageObject",
-    "contentUrl": "so:contentUrl" 
-  },
-  "owner": {
-    "@type": "Person",
-    "email": "so:email",
-    "name": "so:name"
+  "role": "ixo:roleType",
+  "projectTx": "ixo:transactionID",
+  "template": {
+    "@type": "Template",
+    "name": "ixo:templateName"
   }
 }

@@ -13,5 +13,10 @@
     "@type": "Person",
     "email": "so:email",
     "name": "so:name"
+  },
+  "template": {
+    "@type": "Template",
+    "name": "ixo:templateName"
   }
+
 }
