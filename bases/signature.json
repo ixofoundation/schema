@@ -1,0 +1,9 @@
+{
+  "@context": "http://ixo.foundation/schema",
+  "@type": "Signature",
+  "so": "http://schema.org/",
+  "created": "so:date",
+  "creator": "ixo.did",
+  "type": "ixo:signatureType",
+  "signature": "ixo:signature"
+}

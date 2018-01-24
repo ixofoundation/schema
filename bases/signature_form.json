@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "label": "Created",
+      "name": "created",
+      "type": "date",
+      "hidden": true
+    },
+    {
+      "label": "Creator",
+      "name": "creator",
+      "type": "text",
+      "hidden": true
+    },
+    {
+      "label": "Type",
+      "name": "type",
+      "type": "text",
+      "hidden": true
+    },
+    {
+      "label": "Signature",
+      "name": "signature",
+      "type": "text",
+      "hidden": true
+    }
+  ]
+}
