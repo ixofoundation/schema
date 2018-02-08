@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "label": "Approved",
+      "name": "approved",
+      "type": "select",
+      "options": [
+        {
+          "label": "Approved", 
+          "value": "true"
+        },
+        {
+          "label": "Not Approved",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "label": "Claim ID",
+      "name": "claimTx",
+      "type": "text",
+      "hidden": "true"
+    }
+  ]
+}

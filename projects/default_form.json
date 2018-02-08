@@ -29,12 +29,21 @@
       "label": "Owner email",
       "name": "owner.email",
       "type": "text"
+    },  
+    {
+      "label": "Agent Template",
+      "name": "agentTemplate",
+      "type": "template"
     },
     {
-      "label": "Template Name",
-      "name": "template.name",
-      "type": "text",
-      "hidden": "true"
+      "label": "Claim Template",
+      "name": "claimTemplate",
+      "type": "template"
+    },
+    {
+      "label": "Evaluation Template",
+      "name": "evaluationTemplate",
+      "type": "template"
     }
   ]
 }

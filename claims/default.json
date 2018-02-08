@@ -3,8 +3,7 @@
   "@type": "Agent",
   "so": "http://schema.org/",
   "ixo": "http://ixo.foundation/schema",
-  "name": "so:name",
-  "email": "so:email",
-  "role": "ixo:roleType",
-  "projectTx": "ixo:transactionID"
+  "projectTx": "ixo:transactionID",
+  "child": "so:name",
+  "attended": "so:boolean"
 }

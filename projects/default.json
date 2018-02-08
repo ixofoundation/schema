@@ -14,9 +14,16 @@
     "email": "so:email",
     "name": "so:name"
   },
-  "template": {
+  "agentTemplate": {
     "@type": "Template",
-    "name": "ixo:templateName"
+    "name": "so:name"
+  },
+  "claimTemplate": {
+    "@type": "Template",
+    "name": "so:name"
+  },
+  "evaluationTemplate": {
+    "@type": "Template",
+    "name": "so:name"
   }
-
 }
