@@ -78,7 +78,7 @@
     {
       "label": "Required Number of Successful Claims",
       "name": "numberOfSuccessfulClaims",
-      "type": "Integer"
+      "type": "integer"
     },
     {
       "label": "Claim Template",
