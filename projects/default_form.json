@@ -27,7 +27,7 @@
     },  
     {
       "label": "Agent Template",
-      "name": "agentTemplate",
+      "name": "agentTemplate.name",
       "type": "template"
     },
     {
@@ -82,12 +82,12 @@
     },
     {
       "label": "Claim Template",
-      "name": "claimTemplate",
+      "name": "claimTemplate.name",
       "type": "template"
     },
     {
       "label": "Evaluation Template",
-      "name": "evaluationTemplate",
+      "name": "evaluationTemplate.name",
       "type": "template"
     },
     {
