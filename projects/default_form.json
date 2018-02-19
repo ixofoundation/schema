@@ -16,11 +16,6 @@
       "type": "country"
     },
     {
-      "label": "Thumbnail",
-      "name": "thumbnail",
-      "type": "image"
-    },
-    {
       "label": "Owner Name",
       "name": "owner.name",
       "type": "text"
@@ -36,6 +31,26 @@
       "type": "template"
     },
     {
+      "label": "Auto Approve Investment Agents",
+      "name": "autoApproveInvestmentAgent",
+      "type": "radio"
+    },
+    {
+      "label": "Auto Approve Service Agents",
+      "name": "autoApproveServiceAgent",
+      "type": "radio"
+    },
+    {
+      "label": "Auto Approve Evaluation Agents",
+      "name": "autoApproveEvaluationAgent",
+      "type": "radio"
+    },
+    {
+      "label": "Required Number of Successful Claims",
+      "name": "numberOfSuccessfulClaims",
+      "type": "Integer"
+    },
+    {
       "label": "Claim Template",
       "name": "claimTemplate",
       "type": "template"
@@ -44,6 +59,12 @@
       "label": "Evaluation Template",
       "name": "evaluationTemplate",
       "type": "template"
+    },
+    {
+      "label": "Thumbnail",
+      "name": "thumbnail",
+      "type": "image"
     }
+
   ]
 }

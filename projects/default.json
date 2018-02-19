@@ -3,12 +3,8 @@
   "@type": "Project",
   "so": "http://schema.org/",
   "name": "so:name",
-  "about": "so:about",
   "country": "so:country",
-  "thumbnail": {
-    "@type": "ImageObject",
-    "contentUrl": "so:contentUrl" 
-  },
+  "about": "so:about",
   "owner": {
     "@type": "Person",
     "email": "so:email",
@@ -18,6 +14,10 @@
     "@type": "Template",
     "name": "so:name"
   },
+  "autoApproveInvestmentAgent": "so:boolean",
+  "autoApproveServiceAgent": "so:boolean",
+  "autoApproveEvaluationAgent": "so:boolean",
+  "numberOfSuccessfulClaims": "so:quantitativeValue",
   "claimTemplate": {
     "@type": "Template",
     "name": "so:name"
@@ -25,5 +25,9 @@
   "evaluationTemplate": {
     "@type": "Template",
     "name": "so:name"
+  },
+  "thumbnail": {
+    "@type": "ImageObject",
+    "contentUrl": "so:contentUrl" 
   }
 }
