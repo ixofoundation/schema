@@ -33,17 +33,47 @@
     {
       "label": "Auto Approve Investment Agents",
       "name": "autoApproveInvestmentAgent",
-      "type": "radio"
+      "type": "radio",
+      "options": [
+        {
+          "label": "True", 
+          "value": "true"
+        },
+        {
+          "label": "False",
+          "value": "false"
+        }
+      ]
     },
     {
       "label": "Auto Approve Service Agents",
       "name": "autoApproveServiceAgent",
-      "type": "radio"
+      "type": "radio",
+      "options": [
+        {
+          "label": "True", 
+          "value": "true"
+        },
+        {
+          "label": "False",
+          "value": "false"
+        }
+      ]
     },
     {
       "label": "Auto Approve Evaluation Agents",
       "name": "autoApproveEvaluationAgent",
-      "type": "radio"
+      "type": "radio",
+      "options": [
+        {
+          "label": "True", 
+          "value": "true"
+        },
+        {
+          "label": "False",
+          "value": "false"
+        }
+      ]
     },
     {
       "label": "Required Number of Successful Claims",
