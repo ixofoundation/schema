@@ -1,17 +1,17 @@
 {
   "fields": [
     {
-      "label": "Approved",
-      "name": "approved",
+      "label": "option",
+      "name": "result",
       "type": "select",
       "options": [
         {
           "label": "Approved", 
-          "value": "true"
+          "value": "Approved"
         },
         {
           "label": "Not Approved",
-          "value": "false"
+          "value": "NotApproved"
         }
       ]
     },
