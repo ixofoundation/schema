@@ -91,6 +91,11 @@
       "type": "template"
     },
     {
+      "label": "Sustainable Development Goal",
+      "name": "sdg.name",
+      "type": "text"
+    },
+    {
       "label": "Thumbnail",
       "name": "thumbnail",
       "type": "image"

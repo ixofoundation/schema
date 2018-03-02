@@ -26,6 +26,10 @@
     "@type": "Template",
     "name": "so:name"
   },
+  "sdg": {
+    "@type": "sdg",
+    "name": "so:name"
+  },
   "thumbnail": {
     "@type": "ImageObject",
     "contentUrl": "so:contentUrl" 
