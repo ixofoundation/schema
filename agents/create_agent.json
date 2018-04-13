@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "payload": {
+        "type": "object",
+        "properties": {
+          "template": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name"
+            ]
+          },
+          "did": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "surname": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "idnumber": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "surname",
+              "email",
+              "idnumber"
+            ]
+          }
+        },
+        "required": [
+          "template",
+          "did",
+          "data"
+        ]
+      }
+    },
+    "required": [
+      "payload"
+    ]
+  }
