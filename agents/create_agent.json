@@ -19,9 +19,8 @@
               "default": "",
               "examples": [
                 "CreateAgentTemplate"
-              ],
-            },
-              
+              ]
+            }
           }
         },
         "did": {
