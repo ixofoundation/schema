@@ -72,7 +72,8 @@
         "did",
         "data",
         "template"
-      ]
+      ],
+      "additionalProperties": false
     },
     "signature": {
       "$id": "/properties/signature",
@@ -132,11 +133,13 @@
         "created",
         "signature",
         "creator"
-      ]
+      ],
+      "additionalProperties": false
     }
   },
   "required": [
     "payload",
     "signature"
-  ]
+  ],
+  "additionalProperties": false
 }
