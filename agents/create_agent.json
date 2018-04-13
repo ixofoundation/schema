@@ -13,7 +13,6 @@
           "type": "object",
           "properties": {
             "name": {
-              "$id": "/properties/payload/properties/template/properties/name",
               "type": "string",
               "title": "The Name Schema ",
               "default": "",
@@ -21,7 +20,10 @@
                 "CreateAgentTemplate"
               ]
             }
-          }
+          },
+          "required": [
+            "name"
+          ]
         },
         "did": {
           "$id": "/properties/payload/properties/did",
@@ -63,11 +65,14 @@
                 "brennon@me.com"
               ]
             }
-            
           }
         }
-      }
-
+      },
+      "required": [
+        "did",
+        "data",
+        "template"
+      ]
     },
     "signature": {
       "$id": "/properties/signature",
@@ -80,6 +85,9 @@
           "default": "",
           "examples": [
             "ECDSA"
+          ],
+          "required": [
+            "type"
           ]
         },
         "created": {
@@ -89,6 +97,9 @@
           "default": "",
           "examples": [
             "2016-02-08T16:02:20Z"
+          ],
+          "required": [
+            "created"
           ]
         },
         "creator": {
@@ -98,6 +109,9 @@
           "default": "",
           "examples": [
             "did:ixo:987654321"
+          ],
+          "required": [
+            "creator"
           ]
         },
         "signature": {
@@ -107,9 +121,22 @@
           "default": "",
           "examples": [
             "0x1d4a6d5efce1312944f781fb917b484f2ac0c74c53fe8b571dc8f1be6dc6b6692db3e3d08c0a934631f81bf0bba50c591385d34819ac955ec16f38ee04ee480201"
+          ],
+          "required": [
+            "signature"
           ]
         }
-      }
+      },
+      "required": [
+        "type",
+        "created",
+        "signature",
+        "creator"
+      ]
     }
-  }
+  },
+  "required": [
+    "payload",
+    "signature"
+  ]
 }
