@@ -126,13 +126,26 @@
           "required": [
             "signature"
           ]
+        },
+        "publicKey": {
+          "$id": "/properties/signature/properties/publicKey",
+          "type": "string",
+          "title": "The Public Key Schema ",
+          "default": "",
+          "examples": [
+            "0x1d4a6d5efce1312944f781fb917b484f2ac0c7"
+          ],
+          "required": [
+            "publicKey"
+          ]
         }
       },
       "required": [
         "type",
         "created",
         "signature",
-        "creator"
+        "creator",
+        "publicKey"
       ],
       "additionalProperties": false
     }
