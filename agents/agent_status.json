@@ -38,13 +38,13 @@
             "$id": "/properties/payload/properties/data",
             "type": "object",
             "properties": {
-              "did": {
-                "$id": "/properties/payload/properties/data/properties/did",
+              "tx": {
+                "$id": "/properties/payload/properties/data/properties/tx",
                 "type": "string",
-                "title": "The Did Schema of Agent",
+                "title": "The TX ID of Agent",
                 "default": "",
                 "examples": [
-                    "did:sov:987654321"
+                    "12579dece9cd690eb7131731ec47cb426040ca9142a70875765c48b34de2d248"
                 ]
               },
               "status": {
