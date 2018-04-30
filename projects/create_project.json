@@ -25,15 +25,6 @@
               "name"
             ]
           },
-          "dt": {
-            "$id": "/properties/payload/properties/dt",
-            "type": "string",
-            "title": "The DateTime Schema ",
-            "default": "",
-            "examples": [
-              "20180430080000"
-            ]
-          },
           "data": {
             "$id": "/properties/payload/properties/data",
             "type": "object",
@@ -51,7 +42,6 @@
           }
         },
         "required": [
-          "dt",
           "data",
           "template"
         ],
