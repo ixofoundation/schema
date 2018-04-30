@@ -25,15 +25,6 @@
             "name"
           ]
         },
-        "did": {
-          "$id": "/properties/payload/properties/did",
-          "type": "string",
-          "title": "The Did Schema ",
-          "default": "",
-          "examples": [
-            "did:ixo:987654321"
-          ]
-        },
         "data": {
           "$id": "/properties/payload/properties/data",
           "type": "object",
@@ -69,7 +60,6 @@
         }
       },
       "required": [
-        "did",
         "data",
         "template"
       ],
