@@ -25,13 +25,13 @@
               "name"
             ]
           },
-          "did": {
-            "$id": "/properties/payload/properties/did",
+          "dt": {
+            "$id": "/properties/payload/properties/dt",
             "type": "string",
-            "title": "The Did Schema ",
+            "title": "The dateTime Schema ",
             "default": "",
             "examples": [
-              "did:sov:987654321"
+              "20180430080000"
             ]
           },
           "data": {
@@ -60,7 +60,7 @@
           }
         },
         "required": [
-          "did",
+          "dt",
           "data",
           "template"
         ],
