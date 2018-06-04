@@ -8,6 +8,15 @@
       "$id": "/properties/payload",
       "type": "object",
       "properties": {
+        "projectDid": {
+          "$id": "/properties/payload/properties/projectDid",
+          "type": "string",
+          "title": "The Project DID Schema ",
+          "default": "",
+          "examples": [
+            "did:ixo:123xyz"
+          ]
+        },
         "template": {
           "$id": "/properties/payload/properties/template",
           "type": "object",
