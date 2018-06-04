@@ -1,126 +1,135 @@
 {
-    "$id": "http://ixofoundation/evaluate_claim.json",
-    "type": "object",
-    "definitions": {},
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-      "payload": {
-        "$id": "/properties/payload",
-        "type": "object",
-        "properties": {
-          "template": {
-            "$id": "/properties/payload/properties/template",
-            "type": "object",
-            "properties": {
-              "name": {
-                "type": "string",
-                "title": "The Name Schema ",
-                "default": "",
-                "examples": [
-                  "CreateAgentTemplate"
-                ]
-              }
-            },
-            "required": [
-              "name"
-            ]
+  "$id": "http://ixofoundation/evaluate_claim.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "payload": {
+      "$id": "/properties/payload",
+      "type": "object",
+      "properties": {
+        "projectDid": {
+          "$id": "/properties/payload/properties/projectDid",
+          "type": "string",
+          "title": "The Project DID Schema ",
+          "default": "",
+          "examples": [
+            "did:ixo:123xyz"
+          ]
+        },
+        "template": {
+          "$id": "/properties/payload/properties/template",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "The Name Schema ",
+              "default": "",
+              "examples": [
+                "CreateAgentTemplate"
+              ]
+            }
           },
-          "data": {
-            "$id": "/properties/payload/properties/data",
-            "type": "object",
-            "properties": {
-              "tx": {
-                "$id": "/properties/payload/properties/data/properties/tx",
-                "type": "string",
-                "title": "The Transaction ID Schema ",
-                "default": "",
-                "examples": [
-                  "12579dece9cd690eb7131731ec47cb426040ca9142a70875765c48b34de2d248"
-                ]
-              },
-              "status": {
-                "$id": "/properties/payload/properties/data/properties/status",
-                "type": "string",
-                "title": "The Status Schema ",
-                "default": "",
-                "examples": [
-                  "EVALUATED"
-                ]
-              }
+          "required": [
+            "name"
+          ]
+        },
+        "data": {
+          "$id": "/properties/payload/properties/data",
+          "type": "object",
+          "properties": {
+            "tx": {
+              "$id": "/properties/payload/properties/data/properties/tx",
+              "type": "string",
+              "title": "The Transaction ID Schema ",
+              "default": "",
+              "examples": [
+                "12579dece9cd690eb7131731ec47cb426040ca9142a70875765c48b34de2d248"
+              ]
+            },
+            "status": {
+              "$id": "/properties/payload/properties/data/properties/status",
+              "type": "string",
+              "title": "The Status Schema ",
+              "default": "",
+              "examples": [
+                "EVALUATED"
+              ]
             }
           }
-        },
-        "required": [
-          "data",
-          "template"
-        ],
-        "additionalProperties": false
+        }
       },
-      "signature": {
-        "$id": "/properties/signature",
-        "type": "object",
-        "properties": {
-          "type": {
-            "$id": "/properties/signature/properties/type",
-            "type": "string",
-            "title": "The Type Schema ",
-            "default": "",
-            "examples": [
-              "ECDSA"
-            ],
-            "required": [
-              "type"
-            ]
-          },
-          "created": {
-            "$id": "/properties/signature/properties/created",
-            "type": "string",
-            "title": "The Created Schema ",
-            "default": "",
-            "examples": [
-              "2016-02-08T16:02:20Z"
-            ],
-            "required": [
-              "created"
-            ]
-          },
-          "creator": {
-            "$id": "/properties/signature/properties/creator",
-            "type": "string",
-            "title": "The Creator Schema ",
-            "default": "",
-            "examples": [
-              "did:ixo:987654321"
-            ],
-            "required": [
-              "creator"
-            ]
-          },
-          "signature": {
-            "$id": "/properties/signature/properties/signature",
-            "type": "string",
-            "title": "The Signature Schema ",
-            "default": "",
-            "examples": [
-              "0x1d4a6d5efce1312944f781fb917b484f2ac0c74c53fe8b571dc8f1be6dc6b6692db3e3d08c0a934631f81bf0bba50c591385d34819ac955ec16f38ee04ee480201"
-            ],
-            "required": [
-              "signature"
-            ]
-          }
-        },
-        "required": [
-          "type",
-          "created",
-          "signature",
-          "creator"
-        ],
-        "additionalProperties": false
-      }
+      "required": [
+        "data",
+        "template"
+      ],
+      "additionalProperties": true
     },
-    "required": [
-      "payload",
-      "signature"
-    ],
-    "additionalProperties": false
-  }
+    "signature": {
+      "$id": "/properties/signature",
+      "type": "object",
+      "properties": {
+        "type": {
+          "$id": "/properties/signature/properties/type",
+          "type": "string",
+          "title": "The Type Schema ",
+          "default": "",
+          "examples": [
+            "ECDSA"
+          ],
+          "required": [
+            "type"
+          ]
+        },
+        "created": {
+          "$id": "/properties/signature/properties/created",
+          "type": "string",
+          "title": "The Created Schema ",
+          "default": "",
+          "examples": [
+            "2016-02-08T16:02:20Z"
+          ],
+          "required": [
+            "created"
+          ]
+        },
+        "creator": {
+          "$id": "/properties/signature/properties/creator",
+          "type": "string",
+          "title": "The Creator Schema ",
+          "default": "",
+          "examples": [
+            "did:ixo:987654321"
+          ],
+          "required": [
+            "creator"
+          ]
+        },
+        "signature": {
+          "$id": "/properties/signature/properties/signature",
+          "type": "string",
+          "title": "The Signature Schema ",
+          "default": "",
+          "examples": [
+            "0x1d4a6d5efce1312944f781fb917b484f2ac0c74c53fe8b571dc8f1be6dc6b6692db3e3d08c0a934631f81bf0bba50c591385d34819ac955ec16f38ee04ee480201"
+          ],
+          "required": [
+            "signature"
+          ]
+        }
+      },
+      "required": [
+        "type",
+        "created",
+        "signature",
+        "creator"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "payload",
+    "signature"
+  ],
+  "additionalProperties": false
+}
