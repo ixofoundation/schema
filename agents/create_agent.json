@@ -72,7 +72,7 @@
         "data",
         "template"
       ],
-      "additionalProperties": false
+      "additionalProperties": true
     },
     "signature": {
       "$id": "/properties/signature",
