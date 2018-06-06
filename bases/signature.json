@@ -5,5 +5,5 @@
   "created": "so:date",
   "creator": "ixo.did",
   "type": "ixo:signatureType",
-  "signature": "ixo:signature"
+  "signatureValue": "ixo:signature"
 }

@@ -8,16 +8,7 @@
       "$id": "/properties/payload",
       "type": "object",
       "properties": {
-        "projectDid": {
-          "$id": "/properties/payload/properties/projectDid",
-          "type": "string",
-          "title": "The Project DID Schema ",
-          "default": "",
-          "examples": [
-            "did:ixo:123xyz"
-          ]
-        },
-        "template": {
+       "template": {
           "$id": "/properties/payload/properties/template",
           "type": "object",
           "properties": {
@@ -105,8 +96,8 @@
             "creator"
           ]
         },
-        "signature": {
-          "$id": "/properties/signature/properties/signature",
+        "signatureValue": {
+          "$id": "/properties/signature/properties/signatureValue",
           "type": "string",
           "title": "The Signature Schema ",
           "default": "",
@@ -114,14 +105,14 @@
             "0x1d4a6d5efce1312944f781fb917b484f2ac0c74c53fe8b571dc8f1be6dc6b6692db3e3d08c0a934631f81bf0bba50c591385d34819ac955ec16f38ee04ee480201"
           ],
           "required": [
-            "signature"
+            "signatureValue"
           ]
         }
       },
       "required": [
         "type",
         "created",
-        "signature",
+        "signatureValue",
         "creator"
       ],
       "additionalProperties": false
