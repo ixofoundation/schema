@@ -29,31 +29,40 @@
           "$id": "/properties/payload/properties/data",
           "type": "object",
           "properties": {
-            "name": {
-              "$id": "/properties/payload/properties/data/properties/name",
+            "projectDid": {
+              "$id": "/properties/payload/properties/data/properties/projectDid",
               "type": "string",
-              "title": "The Name Schema ",
+              "title": "The project did ",
               "default": "",
               "examples": [
-                "Brennon"
+                "did:ixo:12312312"
+              ],
+              "required":[
+                "projectDid"
               ]
             },
-            "surname": {
-              "$id": "/properties/payload/properties/data/properties/surname",
+            "agentDid": {
+              "$id": "/properties/payload/properties/data/properties/agentDid",
               "type": "string",
-              "title": "The Surname Schema ",
+              "title": "The agent did ",
               "default": "",
               "examples": [
-                "Hampton"
+                "did:sov:123wsx"
+              ],
+              "required":[
+                "agentDid"
               ]
             },
-            "email": {
-              "$id": "/properties/payload/properties/data/properties/email",
+            "role": {
+              "$id": "/properties/payload/properties/data/properties/role",
               "type": "string",
               "title": "The Email Schema ",
               "default": "",
               "examples": [
-                "brennon@me.com"
+                "EA"
+              ],
+              "required":[
+                "role"
               ]
             }
           }

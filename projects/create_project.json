@@ -29,13 +29,16 @@
             "$id": "/properties/payload/properties/data",
             "type": "object",
             "properties": {
-              "name": {
-                "$id": "/properties/payload/properties/data/properties/name",
+              "evaluatorPayPerClaim": {
+                "$id": "/properties/payload/properties/data/properties/evaluatorPayPerClaim",
                 "type": "string",
-                "title": "The Name Schema ",
+                "title": "The evaluatorPayPerClaim Schema ",
                 "default": "",
                 "examples": [
-                  "Brennon"
+                  "100"
+                ],
+                "required": [
+                  "evaluatorPayPerClaim"
                 ]
               }
             }

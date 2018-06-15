@@ -29,13 +29,16 @@
           "$id": "/properties/payload/properties/data",
           "type": "object",
           "properties": {
-            "tx": {
-              "$id": "/properties/payload/properties/data/properties/tx",
+            "projectDid": {
+              "$id": "/properties/payload/properties/data/properties/projectDid",
               "type": "string",
-              "title": "The TX ID of Agent",
+              "title": "The project did",
               "default": "",
               "examples": [
-                "12579dece9cd690eb7131731ec47cb426040ca9142a70875765c48b34de2d248"
+                "did:ixo:123xyz"
+              ],
+              "required": [
+                "projectDid"
               ]
             },
             "status": {
@@ -44,7 +47,34 @@
               "title": "The Status Schema ",
               "default": "",
               "examples": [
-                "PENDING"
+                "1"
+              ],
+              "required": [
+                "status"
+              ]
+            },
+            "role": {
+              "$id": "/properties/payload/properties/data/properties/role",
+              "type": "string",
+              "title": "The role ",
+              "default": "",
+              "examples": [
+                "EA"
+              ],
+              "required": [
+                "role"
+              ]
+            },
+            "agentDid": {
+              "$id": "/properties/payload/properties/data/properties/agentDid",
+              "type": "string",
+              "title": "The agent DID ",
+              "default": "",
+              "examples": [
+                "did:sov:123xyz"
+              ],
+              "required": [
+                "agentDid"
               ]
             }
           }

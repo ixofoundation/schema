@@ -29,22 +29,16 @@
           "$id": "/properties/payload/properties/data",
           "type": "object",
           "properties": {
-            "name": {
-              "$id": "/properties/payload/properties/data/properties/name",
+            "projectDid": {
+              "$id": "/properties/payload/properties/data/properties/projectDid",
               "type": "string",
-              "title": "The Name Schema ",
+              "title": "The project did ",
               "default": "",
               "examples": [
-                "Claim Name"
-              ]
-            },
-            "type": {
-              "$id": "/properties/payload/properties/data/properties/type",
-              "type": "string",
-              "title": "The Type Schema ",
-              "default": "",
-              "examples": [
-                "Delivery"
+                "did:ixo:23423432"
+              ],
+              "required":[
+               "projectDid" 
               ]
             }
           }

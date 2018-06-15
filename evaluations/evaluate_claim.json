@@ -29,13 +29,16 @@
           "$id": "/properties/payload/properties/data",
           "type": "object",
           "properties": {
-            "tx": {
-              "$id": "/properties/payload/properties/data/properties/tx",
+            "projectDid": {
+              "$id": "/properties/payload/properties/data/properties/projectDid",
               "type": "string",
-              "title": "The Transaction ID Schema ",
+              "title": "The project did ",
               "default": "",
               "examples": [
-                "12579dece9cd690eb7131731ec47cb426040ca9142a70875765c48b34de2d248"
+                "did:ixo:gdsjgs"
+              ],
+              "required":[
+                "projectDid"
               ]
             },
             "status": {
@@ -44,7 +47,10 @@
               "title": "The Status Schema ",
               "default": "",
               "examples": [
-                "EVALUATED"
+                "1"
+              ],
+              "required":[
+                "status"
               ]
             }
           }
