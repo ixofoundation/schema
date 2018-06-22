@@ -36,9 +36,6 @@
               "default": "",
               "examples": [
                 "did:ixo:gdsjgs"
-              ],
-              "required":[
-                "projectDid"
               ]
             },
             "status": {
@@ -48,12 +45,14 @@
               "default": "",
               "examples": [
                 "1"
-              ],
-              "required":[
-                "status"
               ]
             }
-          }
+          },          
+          "required": [
+            "projectDid",
+            "status"
+          ],
+          "additionalProperties": true
         }
       },
       "required": [

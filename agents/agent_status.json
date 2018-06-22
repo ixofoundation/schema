@@ -36,9 +36,6 @@
               "default": "",
               "examples": [
                 "did:ixo:123xyz"
-              ],
-              "required": [
-                "projectDid"
               ]
             },
             "status": {
@@ -48,9 +45,6 @@
               "default": "",
               "examples": [
                 "1"
-              ],
-              "required": [
-                "status"
               ]
             },
             "role": {
@@ -60,9 +54,6 @@
               "default": "",
               "examples": [
                 "EA"
-              ],
-              "required": [
-                "role"
               ]
             },
             "agentDid": {
@@ -72,12 +63,16 @@
               "default": "",
               "examples": [
                 "did:sov:123xyz"
-              ],
-              "required": [
-                "agentDid"
               ]
             }
-          }
+          },          
+          "required": [
+            "projectDid",
+            "agentDid",
+            "role",
+            "status"
+          ],
+          "additionalProperties": true
         }
       },
       "required": [

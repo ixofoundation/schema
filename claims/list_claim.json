@@ -1,5 +1,5 @@
 {
-  "$id": "http://ixofoundation/submit_claim.json",
+  "$id": "http://ixofoundation/list_claim.json",
   "type": "object",
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
@@ -17,7 +17,7 @@
               "title": "The Name Schema ",
               "default": "",
               "examples": [
-                "submit_claim"
+                "list_claim"
               ]
             }
           },

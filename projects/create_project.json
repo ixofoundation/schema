@@ -36,12 +36,13 @@
                 "default": "",
                 "examples": [
                   "100"
-                ],
-                "required": [
-                  "evaluatorPayPerClaim"
                 ]
               }
-            }
+            },          
+            "required": [
+              "evaluatorPayPerClaim"
+            ],
+            "additionalProperties": true
           }
         },
         "required": [

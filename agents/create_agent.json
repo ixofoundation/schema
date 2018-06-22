@@ -36,9 +36,6 @@
               "default": "",
               "examples": [
                 "did:ixo:12312312"
-              ],
-              "required":[
-                "projectDid"
               ]
             },
             "agentDid": {
@@ -48,9 +45,6 @@
               "default": "",
               "examples": [
                 "did:sov:123wsx"
-              ],
-              "required":[
-                "agentDid"
               ]
             },
             "role": {
@@ -60,12 +54,15 @@
               "default": "",
               "examples": [
                 "EA"
-              ],
-              "required":[
-                "role"
               ]
             }
-          }
+          },          
+          "required": [
+            "projectDid",
+            "agentDid",
+            "role"
+          ],
+          "additionalProperties": true
         }
       },
       "required": [
