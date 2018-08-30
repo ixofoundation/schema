@@ -41,7 +41,7 @@
               "status": {
                 "$id": "/properties/payload/properties/data/properties/status",
                 "enum":[
-                  "PENDING", "FUNDED", "STARTED", "STOPPED", "PAIDOUT"
+                  "CREATED", "PENDING", "FUNDED", "STARTED", "STOPPED", "PAIDOUT"
                 ],
                 "type": "string",
                 "title": "The project status Schema ",
