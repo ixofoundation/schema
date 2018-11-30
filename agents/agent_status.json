@@ -65,21 +65,25 @@
                 "did:sov:123xyz"
               ]
             }
-          },          
+          },
           "required": [
             "projectDid",
             "agentDid",
             "role",
             "status"
           ],
-          "additionalProperties": true
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       },
       "required": [
         "data",
         "template"
       ],
-      "additionalProperties": true
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "signature": {
       "$id": "/properties/signature",

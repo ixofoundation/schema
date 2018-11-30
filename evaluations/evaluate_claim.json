@@ -47,19 +47,23 @@
                 "1"
               ]
             }
-          },          
+          },
           "required": [
             "projectDid",
             "status"
           ],
-          "additionalProperties": true
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       },
       "required": [
         "data",
         "template"
       ],
-      "additionalProperties": true
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "signature": {
       "$id": "/properties/signature",

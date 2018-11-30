@@ -8,7 +8,7 @@
       "$id": "/properties/payload",
       "type": "object",
       "properties": {
-       "template": {
+        "template": {
           "$id": "/properties/payload/properties/template",
           "type": "object",
           "properties": {
@@ -38,18 +38,22 @@
                 "did:ixo:23423432"
               ]
             }
-          },          
+          },
           "required": [
             "projectDid"
           ],
-          "additionalProperties": true
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       },
       "required": [
         "data",
         "template"
       ],
-      "additionalProperties": true
+      "additionalProperties": {
+        "type": "string"
+      }
     },
     "signature": {
       "$id": "/properties/signature",
