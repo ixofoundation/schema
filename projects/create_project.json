@@ -42,9 +42,7 @@
           "required": [
             "evaluatorPayPerClaim"
           ],
-          "additionalProperties": {
-            "type": "string"
-          }
+          "additionalProperties": true
         }
       },
       "required": [

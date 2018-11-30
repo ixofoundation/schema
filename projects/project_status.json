@@ -60,9 +60,7 @@
             "projectDid",
             "status"
           ],
-          "additionalProperties": {
-            "type": "string"
-          }
+          "additionalProperties": true
         }
       },
       "required": [

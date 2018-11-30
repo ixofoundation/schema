@@ -42,18 +42,14 @@
           "required": [
             "projectDid"
           ],
-          "additionalProperties": {
-            "type": "string"
-          }
+          "additionalProperties": true
         }
       },
       "required": [
         "data",
         "template"
       ],
-      "additionalProperties": {
-        "type": "string"
-      }
+      "additionalProperties": true
     },
     "signature": {
       "$id": "/properties/signature",
