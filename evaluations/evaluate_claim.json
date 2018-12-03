@@ -52,14 +52,20 @@
             "projectDid",
             "status"
           ],
-          "additionalProperties": true
+          "additionalProperties": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          }
         }
       },
       "required": [
         "data",
         "template"
       ],
-      "additionalProperties": true
+      "additionalProperties": false
     },
     "signature": {
       "$id": "/properties/signature",

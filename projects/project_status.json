@@ -60,7 +60,13 @@
             "projectDid",
             "status"
           ],
-          "additionalProperties": true
+          "additionalProperties": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          }
         }
       },
       "required": [
