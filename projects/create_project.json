@@ -42,7 +42,13 @@
           "required": [
             "evaluatorPayPerClaim"
           ],
-          "additionalProperties": {"type": ["string", "object", "array"]}
+          "additionalProperties": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          }
         }
       },
       "required": [
