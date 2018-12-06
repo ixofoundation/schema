@@ -72,7 +72,7 @@
             "role",
             "status"
           ],
-          "additionalProperties": false
+          "additionalProperties": true
         }
       },
       "required": [
