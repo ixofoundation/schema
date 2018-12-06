@@ -72,13 +72,7 @@
             "role",
             "status"
           ],
-          "additionalProperties": {
-            "type": [
-              "string",
-              "object",
-              "array"
-            ]
-          }
+          "additionalProperties": false
         }
       },
       "required": [
