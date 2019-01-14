@@ -42,6 +42,7 @@
               "$id": "/properties/payload/properties/data/properties/status",
               "enum": [
                 "CREATED",
+                "PENDING",
                 "FUNDED",
                 "STARTED",
                 "STOPPED",
