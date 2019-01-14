@@ -41,17 +41,13 @@
             "status": {
               "$id": "/properties/payload/properties/data/properties/status",
               "enum": [
-                "CREATED",
-                "FUNDED",
-                "STARTED",
-                "STOPPED",
-                "PAIDOUT"
+                "PENDING"
               ],
               "type": "string",
               "title": "The project status Schema ",
               "default": "",
               "examples": [
-                "FUNDED"
+                "PENDING"
               ]
             }
           },
@@ -130,7 +126,6 @@
       "required": [
         "type",
         "created",
-        "signatureValue",
         "creator"
       ],
       "additionalProperties": false
