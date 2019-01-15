@@ -81,9 +81,6 @@
           "default": "",
           "examples": [
             "ECDSA"
-          ],
-          "required": [
-            "type"
           ]
         },
         "created": {
@@ -121,7 +118,6 @@
         }
       },
       "required": [
-        "type",
         "created",
         "creator"
       ],
