@@ -28,20 +28,6 @@
         "data": {
           "$id": "/properties/payload/properties/data",
           "type": "object",
-          "properties": {
-            "evaluatorPayPerClaim": {
-              "$id": "/properties/payload/properties/data/properties/evaluatorPayPerClaim",
-              "type": "string",
-              "title": "The evaluatorPayPerClaim Schema ",
-              "default": "",
-              "examples": [
-                "100"
-              ]
-            }
-          },
-          "required": [
-            "evaluatorPayPerClaim"
-          ],
           "additionalProperties": {
             "type": [
               "string",
