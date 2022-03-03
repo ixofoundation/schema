@@ -1,4 +1,4 @@
-# schema
+# Schema
 A repository for holding schema templates for the ixo Protocol
 
 ## Folder Structure
